@@ -1,0 +1,15 @@
+static var autosize = process.browser && require('autosize-input')
+
+class {
+  onMount() {
+    autosize(this.getEl('input'))
+  }
+
+  onChange(e) {
+    this.emit('change', e.target.value)
+  }
+}
+
+div
+  input key='input' value=input.value on-input('onChange')
+  -- ${input.value}

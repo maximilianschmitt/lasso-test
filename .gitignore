@@ -1,0 +1,6 @@
+.cache
+node_modules
+*.marko.js
+static
+.DS_Store
+.vscode

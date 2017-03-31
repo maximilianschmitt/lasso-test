@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "autosize-input": "^0.4.0",
+    "express": "^4.15.2",
+    "lasso": "^2.11.8",
+    "lasso-marko": "^2.3.0",
+    "marko": "4.2.0"
+  }
+}
