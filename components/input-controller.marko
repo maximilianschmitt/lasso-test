@@ -1,0 +1,12 @@
+class {
+  onCreate() {
+    this.state = { value: 'Helo' }
+  }
+
+  onChange(value) {
+    this.state.value = value
+  }
+}
+
+.input-controller
+  custom-input value=state.value onChange('onChange')

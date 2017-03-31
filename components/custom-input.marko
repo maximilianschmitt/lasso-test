@@ -1,0 +1,10 @@
+class {
+  onChange(e) {
+    this.emit('change', e.target.value)
+  }
+}
+
+div
+  textarea on-input('onChange') value=input.value -- ${input.value}
+  p
+    strong -- ${input.value}
